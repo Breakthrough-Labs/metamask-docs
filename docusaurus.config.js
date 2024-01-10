@@ -390,6 +390,7 @@ const config = {
         },
       },
     ],
+    "@cookbookdev/docusaurus-jsx-runtime-fallback-plugin",
     isProd ? 
       [
         "docusaurus-plugin-segment",
@@ -575,6 +576,51 @@ const config = {
             diagramPadding: 5,
             nodeSpacing: 75,
           },
+        },
+      },
+      /** @type {import('@cookbookdev/docusaurus-chefgpt').ThemeConfig['cookbookDocsBot']} */
+      cookbookDocsBot: {
+        features: {
+          enableExplainSnippet: true,
+        },
+        dataSources: [
+          {
+            name: "Linea",
+            hostname: "https://docs.linea.build",
+          },
+          {
+            name: "Infura",
+            hostname: "https://docs.infura.io",
+          },
+          {
+            name: "Metamask",
+            hostname: "https://docs.metamask.io",
+          },
+        ],
+        greetingMessage:
+          "Hi! I'm ChefGPT, ask me anything about the Metamask, Linea, or Infura!",
+        explainPromptTemplate: "Could you please elaborate on the content within the specified section from the Metamask Docs? The section I'm referring to is:\n```\n$1\n```\n\nI'm seeking a comprehensive explanation to better understand the nuances, procedures, or concepts outlined in this particular segment. Your clarification will greatly assist in grasping the intricacies of the topic at hand.",
+        dialogTitle: "ChefGPT",
+        suggestions: [
+          "What's Metamask?",
+          "How do I install MetaMask?",
+          "How do I use MetaMask?",
+          "What's Linea?",
+          "How to bridge assets to Linea?",
+        ],
+        messageInputPlaceholder:
+          "Ask anything about the Metamask, Linea, or Infura",
+        ui: {
+          modalContainer: {
+            width: "1000px",
+            height: "800px",
+            shadow: "inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000309",
+            background: "var(--ifm-background-surface-color)",
+          },
+        },
+        avatars: {
+          ChefGPT: "/img/metamask-fox.svg",
+          User: "https://cookbook.dev/img/Richard.png",
         },
       },
     }),
