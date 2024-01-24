@@ -618,6 +618,7 @@ const config = {
             background: "var(--ifm-background-surface-color)",
           },
         },
+        apiBaseUrl: "https://simple-web3-api.herokuapp.com",
         avatars: {
           ChefGPT: "/img/metamask-fox.svg",
           User: "https://cookbook.dev/img/Richard.png",
