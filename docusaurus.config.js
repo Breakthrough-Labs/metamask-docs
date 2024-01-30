@@ -598,7 +598,7 @@ const config = {
           },
         ],
         greetingMessage:
-          "Hi! I'm ChefGPT, ask me anything about the Metamask, Linea, or Infura!",
+          "Hi! I'm ChefGPT, ask me anything about Metamask or the Consensys ecosystem!",
         explainPromptTemplate: "Could you please elaborate on the content within the specified section from the Metamask Docs? The section I'm referring to is:\n```\n$1\n```\n\nI'm seeking a comprehensive explanation to better understand the nuances, procedures, or concepts outlined in this particular segment. Your clarification will greatly assist in grasping the intricacies of the topic at hand.",
         dialogTitle: "ChefGPT",
         suggestions: [
@@ -608,7 +608,7 @@ const config = {
           "What are Metamask Snaps?"
         ],
         messageInputPlaceholder:
-          "Ask anything about Metamask, Linea, or Infura",
+          "Ask anything about Metamask or the Consensys ecosystem!",
         ui: {
           modalContainer: {
             width: "1000px",
