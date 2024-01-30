@@ -585,16 +585,16 @@ const config = {
         },
         dataSources: [
           {
+            name: "Metamask",
+            hostname: "https://docs.metamask.io",
+          },
+          {
             name: "Linea",
             hostname: "https://docs.linea.build",
           },
           {
             name: "Infura",
             hostname: "https://docs.infura.io",
-          },
-          {
-            name: "Metamask",
-            hostname: "https://docs.metamask.io",
           },
         ],
         greetingMessage:
@@ -605,8 +605,7 @@ const config = {
           "What's Metamask?",
           "How do I install MetaMask?",
           "How do I use MetaMask?",
-          "What's Linea?",
-          "How to bridge assets to Linea?",
+          "What are Metamask Snaps?"
         ],
         messageInputPlaceholder:
           "Ask anything about Metamask, Linea, or Infura",
