@@ -609,7 +609,7 @@ const config = {
           "How to bridge assets to Linea?",
         ],
         messageInputPlaceholder:
-          "Ask anything about the Metamask, Linea, or Infura",
+          "Ask anything about Metamask, Linea, or Infura",
         ui: {
           modalContainer: {
             width: "1000px",
@@ -618,7 +618,7 @@ const config = {
             background: "var(--ifm-background-surface-color)",
           },
         },
-        apiBaseUrl: "https://simple-web3-api.herokuapp.com",
+        apiBaseUrl: "http://localhost:5001",
         avatars: {
           ChefGPT: "/img/metamask-fox.svg",
           User: "https://cookbook.dev/img/Richard.png",
