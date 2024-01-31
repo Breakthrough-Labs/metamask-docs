@@ -19,7 +19,7 @@
     "postinstall": "cd external/keyring-api && yarn install"
   },
   "dependencies": {
-    "@cookbookdev/docusaurus-chefgpt": "^1.0.7",
+    "@cookbookdev/docusaurus-chefgpt": "^1.0.9",
     "@docusaurus/core": "2.4.3",
     "@docusaurus/plugin-content-docs": "2.4.3",
     "@docusaurus/theme-common": "2.4.3",
