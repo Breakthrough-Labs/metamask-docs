@@ -1730,9 +1730,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cookbookdev/docusaurus-chefgpt@npm:^1.0.7":
-  version: 1.0.7
-  resolution: "@cookbookdev/docusaurus-chefgpt@npm:1.0.7"
+"@cookbookdev/docusaurus-chefgpt@npm:^1.0.9":
+  version: 1.0.9
+  resolution: "@cookbookdev/docusaurus-chefgpt@npm:1.0.9"
   dependencies:
     "@docusaurus/theme-classic": 2.4.3
     "@docusaurus/theme-common": 2.4.3
@@ -1747,7 +1747,7 @@ __metadata:
     "@docusaurus/theme-common": ^2.4.3
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: bed9685c0bc98535bc44e976635017195ffd82dcd74fa0f9d41cb4d53a6e8adc9db998aabac223a329c79030f316be8885616e1e28fd09b8cb9c6bc91ed1b7c5
+  checksum: 6dd5e3b3f99a1f8dbaba743a02eba2596f00c2b364871f4c2ba301f03a5f92d17b7e985580ee51c45da28730241f828789630c77c523e87d8edf78311125ca6b
   languageName: node
   linkType: hard
 
@@ -12315,7 +12315,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "metamask-docs@workspace:."
   dependencies:
-    "@cookbookdev/docusaurus-chefgpt": ^1.0.7
+    "@cookbookdev/docusaurus-chefgpt": ^1.0.9
     "@cookbookdev/docusaurus-jsx-runtime-fallback-plugin": ^1.0.1
     "@docusaurus/core": 2.4.3
     "@docusaurus/eslint-plugin": 2.4.3
