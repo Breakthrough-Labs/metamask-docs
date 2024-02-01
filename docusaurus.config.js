@@ -605,7 +605,7 @@ const config = {
           "What's Metamask?",
           "How do I install MetaMask?",
           "How do I use MetaMask?",
-          "What are Metamask Snaps?"
+          "What are Metamask Snaps?",
         ],
         messageInputPlaceholder:
           "Ask anything about Metamask or the Consensys ecosystem!",
@@ -622,6 +622,7 @@ const config = {
           ChefGPT: "/img/metamask-fox.svg",
           User: "https://cookbook.dev/img/Richard.png",
         },
+        org: "consensys",
       },
     }),
 };
