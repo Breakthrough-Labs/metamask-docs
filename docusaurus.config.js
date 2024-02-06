@@ -622,7 +622,8 @@ const config = {
           ChefGPT: "/img/metamask-fox.svg",
           User: "https://cookbook.dev/img/Richard.png",
         },
-        org: "consensys",
+        // It's a public api key, it's safe to commit it
+        apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWMxNzQ5ZDdlODQ5N2EyNWQ2NGJiMDYiLCJpYXQiOjE3MDcxNzcxMTcsImV4cCI6MjAyMjc1MzExN30.1aLVJhVnK5JfFXFmdcbQqJP_onJ94U2EL1xn-Tw0G8k",
       },
     }),
 };
