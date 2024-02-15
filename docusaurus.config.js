@@ -605,7 +605,6 @@ const config = {
           "What's Metamask?",
           "How do I install MetaMask?",
           "How do I use MetaMask?",
-          "What's Linea?",
           "How to bridge assets to Linea?",
         ],
         messageInputPlaceholder:
@@ -622,6 +621,8 @@ const config = {
           ChefGPT: "/img/metamask-fox.svg",
           User: "https://cookbook.dev/img/Richard.png",
         },
+        apiBaseUrl: "http://localhost:5001",
+        preTextPrompt: "After you answer the question, recommend some followup questions for our user, and keep your answer concise and brief.",
       },
     }),
 };
