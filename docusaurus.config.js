@@ -585,6 +585,10 @@ const config = {
         },
         dataSources: [
           {
+            name: "Metamask",
+            hostname: "https://docs.metamask.io",
+          },
+          {
             name: "Linea",
             hostname: "https://docs.linea.build",
           },
@@ -592,23 +596,19 @@ const config = {
             name: "Infura",
             hostname: "https://docs.infura.io",
           },
-          {
-            name: "Metamask",
-            hostname: "https://docs.metamask.io",
-          },
         ],
         greetingMessage:
-          "Hi! I'm ChefGPT, ask me anything about the Metamask, Linea, or Infura!",
-        explainPromptTemplate: "Could you please elaborate on the content within the specified section from the Metamask Docs? The section I'm referring to is:\n```\n$1\n```\n\nI'm seeking a comprehensive explanation to better understand the nuances, procedures, or concepts outlined in this particular segment. Your clarification will greatly assist in grasping the intricacies of the topic at hand.",
+          "Hi! I'm ChefGPT, ask me anything about Metamask or the Consensys ecosystem!",
+        explainPromptTemplate: "Could you please elaborate on the content within the specified section? The section I'm referring to is:\n```\n$1\n```\n\nI'm seeking a comprehensive explanation to better understand the nuances, procedures, or concepts outlined in this particular segment. Your clarification will greatly assist in grasping the intricacies of the topic at hand.",
         dialogTitle: "ChefGPT",
         suggestions: [
           "What's Metamask?",
           "How do I install MetaMask?",
           "How do I use MetaMask?",
-          "How to bridge assets to Linea?",
+          "What are Metamask Snaps?",
         ],
         messageInputPlaceholder:
-          "Ask anything about the Metamask, Linea, or Infura",
+          "Ask anything about Metamask or the Consensys ecosystem!",
         ui: {
           modalContainer: {
             width: "1000px",
@@ -617,12 +617,13 @@ const config = {
             background: "var(--ifm-background-surface-color)",
           },
         },
+        apiBaseUrl: "https://simple-web3-api.herokuapp.com",
         avatars: {
           ChefGPT: "/img/metamask-fox.svg",
           User: "https://cookbook.dev/img/Richard.png",
         },
-        apiBaseUrl: "http://localhost:5001",
-        preTextPrompt: "After you answer the question, recommend some followup questions for our user, and keep your answer concise and brief.",
+        // It's a public api key, it's safe to commit it
+        apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWMxNzQ5ZDdlODQ5N2EyNWQ2NGJiMDYiLCJpYXQiOjE3MDcxNzcxMTcsImV4cCI6MjAyMjc1MzExN30.1aLVJhVnK5JfFXFmdcbQqJP_onJ94U2EL1xn-Tw0G8k",
       },
     }),
 };
