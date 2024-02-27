@@ -390,7 +390,6 @@ const config = {
         },
       },
     ],
-    "@cookbookdev/docusaurus-jsx-runtime-fallback-plugin",
     isProd ? 
       [
         "docusaurus-plugin-segment",
@@ -577,53 +576,6 @@ const config = {
             nodeSpacing: 75,
           },
         },
-      },
-      /** @type {import('@cookbookdev/docusaurus-chefgpt').ThemeConfig['cookbookDocsBot']} */
-      cookbookDocsBot: {
-        features: {
-          enableExplainSnippet: true,
-        },
-        dataSources: [
-          {
-            name: "Metamask",
-            hostname: "https://docs.metamask.io",
-          },
-          {
-            name: "Linea",
-            hostname: "https://docs.linea.build",
-          },
-          {
-            name: "Infura",
-            hostname: "https://docs.infura.io",
-          },
-        ],
-        greetingMessage:
-          "Hi! I'm ChefGPT, ask me anything about Metamask or the Consensys ecosystem!",
-        explainPromptTemplate: "Could you please elaborate on the content within the specified section? The section I'm referring to is:\n```\n$1\n```\n\nI'm seeking a comprehensive explanation to better understand the nuances, procedures, or concepts outlined in this particular segment. Your clarification will greatly assist in grasping the intricacies of the topic at hand.",
-        dialogTitle: "ChefGPT",
-        suggestions: [
-          "What's Metamask?",
-          "How do I install MetaMask?",
-          "How do I use MetaMask?",
-          "What are Metamask Snaps?",
-        ],
-        messageInputPlaceholder:
-          "Ask anything about Metamask or the Consensys ecosystem!",
-        ui: {
-          modalContainer: {
-            width: "1000px",
-            height: "800px",
-            shadow: "inset 1px 1px 0 0 #2c2e40, 0 3px 8px 0 #000309",
-            background: "var(--ifm-background-surface-color)",
-          },
-        },
-        apiBaseUrl: "https://simple-web3-api.herokuapp.com",
-        avatars: {
-          ChefGPT: "/img/metamask-fox.svg",
-          User: "https://cookbook.dev/img/Richard.png",
-        },
-        // It's a public api key, it's safe to commit it
-        apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWMxNzQ5ZDdlODQ5N2EyNWQ2NGJiMDYiLCJpYXQiOjE3MDcxNzcxMTcsImV4cCI6MjAyMjc1MzExN30.1aLVJhVnK5JfFXFmdcbQqJP_onJ94U2EL1xn-Tw0G8k",
       },
     }),
 };

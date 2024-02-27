@@ -19,7 +19,6 @@
     "postinstall": "cd external/keyring-api && yarn install"
   },
   "dependencies": {
-    "@cookbookdev/docusaurus-chefgpt": "^1.1.13",
     "@docusaurus/core": "2.4.3",
     "@docusaurus/plugin-content-docs": "2.4.3",
     "@docusaurus/theme-common": "2.4.3",
@@ -42,7 +41,6 @@
     "typedoc-plugin-markdown": "4.0.0-next.22"
   },
   "devDependencies": {
-    "@cookbookdev/docusaurus-jsx-runtime-fallback-plugin": "^1.0.1",
     "@docusaurus/eslint-plugin": "2.4.3",
     "@docusaurus/module-type-aliases": "2.4.3",
     "@docusaurus/plugin-client-redirects": "2.4.3",
